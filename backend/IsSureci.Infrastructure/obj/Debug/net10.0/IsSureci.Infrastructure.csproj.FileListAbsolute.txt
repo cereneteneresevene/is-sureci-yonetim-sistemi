@@ -1,0 +1,17 @@
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Infrastructure.deps.json
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Infrastructure.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Infrastructure.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Application.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Domain.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Application.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Domain.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.csproj.AssemblyReference.cache
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.AssemblyInfoInputs.cache
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.AssemblyInfo.cs
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.3B611695.Up2Date
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/refint/IsSureci.Infrastructure.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/ref/IsSureci.Infrastructure.dll

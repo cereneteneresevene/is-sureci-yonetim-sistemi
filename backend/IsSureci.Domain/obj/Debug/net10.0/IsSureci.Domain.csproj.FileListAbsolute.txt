@@ -1,0 +1,11 @@
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/bin/Debug/net10.0/IsSureci.Domain.deps.json
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/bin/Debug/net10.0/IsSureci.Domain.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/bin/Debug/net10.0/IsSureci.Domain.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.AssemblyInfoInputs.cache
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.AssemblyInfo.cs
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.csproj.CoreCompileInputs.cache
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/refint/IsSureci.Domain.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/IsSureci.Domain.pdb
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Domain/obj/Debug/net10.0/ref/IsSureci.Domain.dll

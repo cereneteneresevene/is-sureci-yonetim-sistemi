@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="IsSureci.API/IsSureci.API.csproj" />
+  <Project Path="IsSureci.Application/IsSureci.Application.csproj" />
+  <Project Path="IsSureci.Domain/IsSureci.Domain.csproj" />
+  <Project Path="IsSureci.Infrastructure/IsSureci.Infrastructure.csproj" />
+</Solution>

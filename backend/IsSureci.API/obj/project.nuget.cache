@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "IbhGCID6BYc=",
+  "success": true,
+  "projectFilePath": "/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.API/IsSureci.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/cereneteneresevene/.nuget/packages/microsoft.aspnetcore.openapi/10.0.5/microsoft.aspnetcore.openapi.10.0.5.nupkg.sha512",
+    "/Users/cereneteneresevene/.nuget/packages/microsoft.openapi/2.0.0/microsoft.openapi.2.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

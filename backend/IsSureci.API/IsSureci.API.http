@@ -1,0 +1,6 @@
+@IsSureci.API_HostAddress = http://localhost:5294
+
+GET {{IsSureci.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
