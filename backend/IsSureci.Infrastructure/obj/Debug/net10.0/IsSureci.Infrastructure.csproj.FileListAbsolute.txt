@@ -15,3 +15,6 @@
 /Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/refint/IsSureci.Infrastructure.dll
 /Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.pdb
 /Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/ref/IsSureci.Infrastructure.dll
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.sourcelink.json
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/bin/Debug/net10.0/IsSureci.Infrastructure.runtimeconfig.json
+/Users/cereneteneresevene/Desktop/is-sureci-yonetim-sistemi/backend/IsSureci.Infrastructure/obj/Debug/net10.0/IsSureci.Infrastructure.genruntimeconfig.cache
