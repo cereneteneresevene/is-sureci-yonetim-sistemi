@@ -4,6 +4,7 @@ import { createGorev } from '../services/api';
 export default function GorevOlustur({ onGeri }) {
   const [form, setForm] = useState({ baslik: '', aciklama: '' });
   const [yukleniyor, setYukleniyor] = useState(false);
+  const [modalAcik, setModalAcik] = useState(false);
 
   const handleSubmit = async () => {
     if (!form.baslik) return alert('Başlık zorunlu!');

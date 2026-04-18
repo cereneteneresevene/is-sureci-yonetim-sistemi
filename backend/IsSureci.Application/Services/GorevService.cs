@@ -62,4 +62,28 @@ public class GorevService
     }
 
     public async Task<bool> DeleteAsync(int id) => await _repo.DeleteAsync(id);
+
+    public async Task<GorevDto?> UpdateDurumAsync(int id, GorevGuncelleDto dto)
+{
+    var gorev = await _repo.GetByIdAsync(id);
+    if (gorev == null) return null;
+
+    gorev.Baslik = dto.Baslik;
+    gorev.Aciklama = dto.Aciklama;
+    gorev.Durum = dto.Durum;
+    gorev.AtananKullaniciId = dto.AtananKullaniciId;
+
+    var updated = await _repo.UpdateAsync(gorev);
+    if (updated == null) return null;
+
+    return new GorevDto
+    {
+        Id = updated.Id,
+        Baslik = updated.Baslik,
+        Aciklama = updated.Aciklama,
+        Durum = updated.Durum,
+        OlusturmaTarihi = updated.OlusturmaTarihi,
+        AtananKullaniciAd = updated.AtananKullanici?.Ad
+    };
+}
 }

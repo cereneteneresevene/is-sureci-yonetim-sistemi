@@ -39,4 +39,11 @@ public class GorevController : ControllerBase
         var result = await _service.DeleteAsync(id);
         return result ? NoContent() : NotFound();
     }
+
+    [HttpPut("{id}")]
+    public async Task<IActionResult> Update(int id, GorevGuncelleDto dto)
+    {
+        var result = await _service.UpdateDurumAsync(id, dto);
+        return result == null ? NotFound() : Ok(result);
+    }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IsSureci.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+887285169872f55a17ee60d63b42a094bdafd740")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5ac505a01fd3ff73f6196e0b5875d05c8c1bef2")]
 [assembly: System.Reflection.AssemblyProductAttribute("IsSureci.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IsSureci.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
