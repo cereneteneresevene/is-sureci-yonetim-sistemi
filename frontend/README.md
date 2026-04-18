@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🏢 İş Süreci Yönetim Sistemi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Görev takibi ve iş süreci yönetimi için geliştirilmiş full-stack web uygulaması.
 
-## Available Scripts
+## 📸 Ekran Görüntüleri
 
-In the project directory, you can run:
+### Kanban Panosu
+![Kanban](screenshots/1_kanban.png)
 
-### `npm start`
+### Yeni Görev Modal
+![Modal](screenshots/2_modal.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Dolu Pano
+![Dolu](screenshots/3_dolu.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🎯 Özellikler
 
-### `npm test`
+- ✅ Görev oluşturma, silme ve durum güncelleme
+- 🔄 Sürükle bırak ile Kanban panosu
+- 📊 İlerleme çubuğu
+- 💬 Popup modal ile görev ekleme
+- 📱 Modern ve responsive arayüz
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🏗️ Mimari — Onion Architecture
+backend/
+├── IsSureci.Domain/         → Entity'ler, iş kuralları
+├── IsSureci.Application/    → Servisler, DTO'lar, interface'ler
+├── IsSureci.Infrastructure/ → Veritabanı, repository'ler
+└── IsSureci.API/            → Controller'lar, endpoint'ler
+frontend/
+└── src/
+├── components/          → Modal bileşenleri
+├── pages/               → Sayfa bileşenleri
+└── services/            → API iletişimi
 
-### `npm run build`
+## 🔧 Kullanılan Teknolojiler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Backend:**
+- .NET 10
+- ASP.NET Core Web API
+- Entity Framework Core
+- SQLite
+- Swagger / OpenAPI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Frontend:**
+- React.js
+- Axios
+- CSS-in-JS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Kurulum
 
-### `npm run eject`
+### Backend
+```bash
+cd backend/IsSureci.API
+dotnet run
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📡 API Endpoint'leri
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+| Method | Endpoint | Açıklama |
+|--------|----------|----------|
+| GET | /api/Gorev | Tüm görevleri getir |
+| GET | /api/Gorev/{id} | Tek görev getir |
+| POST | /api/Gorev | Yeni görev oluştur |
+| PUT | /api/Gorev/{id} | Görev güncelle |
+| DELETE | /api/Gorev/{id} | Görev sil |
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📐 Veri Modeli
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```json
+{
+  "id": 1,
+  "baslik": "Görev başlığı",
+  "aciklama": "Görev açıklaması",
+  "durum": 0,
+  "olusturmaTarihi": "2026-04-13T13:03:58Z",
+  "atananKullaniciAd": null
+}
+```
+Durum: 0 = Bekliyor, 1 = Devam Ediyor, 2 = Tamamlandı
